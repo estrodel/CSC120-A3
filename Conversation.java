@@ -11,7 +11,7 @@ class Conversation {
     Scanner in = new Scanner(System.in);
     String input = "";
     int rounds = 0;
-    ArrayList<String> transcript= new ArrayList<>();
+    ArrayList<String> transcript= new ArrayList<String>();
     String response = "";
     
 
@@ -70,11 +70,11 @@ class Conversation {
 
     //Initialize canned string for responses to questions and inputs without mirrors, and random variable
     Random ran = new Random();
-    ArrayList<String> canned= new ArrayList <>(Arrays.asList("Mhmm...", "I hear you.","Gotcha","That's... nice?", "I see.","You are such an insightful CSC Grader!"));
-    ArrayList<String> cannedQ= new ArrayList <>(Arrays.asList("I'm not really sure...","I'll have to get back to you on that one...", "Woof, thats a tough one... "));
+    ArrayList<String> canned= new ArrayList <String>(Arrays.asList("Mhmm...", "I hear you.","Gotcha","That's... nice?", "I see.","You are such an insightful CSC Grader!"));
+    ArrayList<String> cannedQ= new ArrayList <String>(Arrays.asList("I'm not really sure...","I'll have to get back to you on that one...", "Woof, thats a tough one... "));
     
     //Create arraylist that splits punctionation and words
-    ArrayList<String> words = new ArrayList<>(Arrays.asList(input.split("\\b")));
+    ArrayList<String> words = new ArrayList<String>(Arrays.asList(input.split("\\b")));
 
     //Catch exception if nothing is entered 
     if(input.length()==0){
