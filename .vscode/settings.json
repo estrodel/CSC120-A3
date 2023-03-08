@@ -3,9 +3,11 @@
     "java.project.referencedLibraries": {
         "include": [
             "lib/**/*.jar",
-            "/Users/emiliastrodel/Downloads/commons-text-1.10.0/commons-text-1.10.0.jar",
             "/Users/emiliastrodel/Downloads/commons-text-1.10.0/**/*.jar",
-            "/Users/emiliastrodel/Downloads/commons-lang3-3.12.0/commons-lang3-3.12.0.jar"
+            "/Users/emiliastrodel/Downloads/commons-lang3-3.12.0/commons-lang3-3.12.0.jar",
+            "/Users/emiliastrodel/smith-repos/commons-io-2.11.0-src/**/*.jar",
+            "/Users/emiliastrodel/Downloads/commons-text-1.10.0-src/**/*.jar",
+            "/Users/emiliastrodel/Downloads/commons-lang3-3.12.0/**/*.jar"
         ],
         "exclude": [
             "/Users/emiliastrodel/Downloads/commons-io-2.11.0/commons-io-2.11.0.jar"

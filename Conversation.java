@@ -86,11 +86,7 @@ class Conversation {
       return (cannedQ.get(ran.nextInt(cannedQ.size()))+ " Anything else on your mind?");
     }
 
-    //Sometimes send a canned response when there are mirror words (so the mirror isn't too repetitive)
-    if(ran.nextInt(3)==1){
-      return (canned.get(ran.nextInt(canned.size())));
-
-    }
+  
 
     //Loop through and truncate the sentence at the first period. Set the final punction to a question mark
     for(int i =0; i<words.size();i++){
